@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "f23e54d6-c3a6-4fd9-a6c2-934311be16ff",
+		"name": "Hacktiv",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16975317"
+	},
+	"item": [
+		{
+			"name": "Assignment02",
+			"item": [
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerName\": \"robin\",\r\n    \"orderedAt\": \"2023-01-01 01:01:01\",\r\n    \"items\": [\r\n        {\r\n            \"itemCode\": \"123\",\r\n            \"description\": \"POCO X3\",\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"itemCode\": \"456\",\r\n            \"description\": \"Samsung S23\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8888/api/order/create",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api",
+								"order",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get List",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8888/api/order/list",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api",
+								"order",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": 26,\r\n    \"customerName\": \"robin 2\",\r\n    \"orderedAt\": \"2023-02-02 01:01:01\",\r\n    \"items\": [\r\n        {\r\n            \"orderDetailId\": 35,\r\n            \"itemCode\": \"789\",\r\n            \"description\": \"POCO X22\",\r\n            \"quantity\": 22\r\n        },\r\n        {\r\n            \"orderDetailId\": 36,\r\n            \"itemCode\": \"012\",\r\n            \"description\": \"Samsung S22\",\r\n            \"quantity\": 22\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8888/api/order/edit",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api",
+								"order",
+								"edit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": 23\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8888/api/order/remove",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"api",
+								"order",
+								"remove"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
