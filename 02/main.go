@@ -12,8 +12,8 @@ func main() {
 	db, err := database.ConnectPostgres(database.DBOption{
 		Host:     "localhost",
 		Port:     "5432",
-		User:     "root",
-		Password: "102030",
+		User:     "...",
+		Password: "...",
 		DBName:   "assignment02",
 		SSLMode:  "disable",
 	})
