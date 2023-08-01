@@ -151,7 +151,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"username\": \"bagus\",\r\n    \"email\": \"bagus@gmail.com\",\r\n    \"password\": \"abc123\",\r\n    \"age\": 30\r\n}",
+									"raw": "{\r\n    \"username\": \"robin\",\r\n    \"email\": \"robin@gmail.com\",\r\n    \"password\": \"abc123\",\r\n    \"age\": 30\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -242,7 +242,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"title\": \"foto 1\",\r\n    \"caption\": \"caption foto 1\",\r\n    \"photoUrl\": \"www.foto.com/1\"\r\n}",
+									"raw": "{\r\n    \"title\": \"foto 3\",\r\n    \"caption\": \"caption foto 3\",\r\n    \"photoUrl\": \"www.foto.com/3\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -273,7 +273,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"photoId\": 1\r\n}",
+									"raw": "{\r\n    \"photoId\": 2\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -339,7 +339,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"photoId\": 3,\r\n    \"title\": \"fotos 3\",\r\n    \"caption\": \"caption fotos 3\",\r\n    \"photoUrl\": \"www.fotos.com/3\"\r\n}",
+									"raw": "{\r\n    \"photoId\": 4,\r\n    \"title\": \"fotos 3\",\r\n    \"caption\": \"caption fotos 3\",\r\n    \"photoUrl\": \"www.fotos.com/3\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -443,7 +443,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"socialmediaId\": 2\r\n}",
+									"raw": "{\r\n    \"socialmediaId\": 3\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -509,7 +509,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"socialmediaId\": 1,\r\n    \"name\": \"sosmed 1-1\",\r\n    \"socialmediaUrl\": \"www.sosmed1-1.com\"\r\n}",
+									"raw": "{\r\n    \"socialmediaId\": 4,\r\n    \"name\": \"sosmed 1-1\",\r\n    \"socialmediaUrl\": \"www.sosmed1-1.com\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -543,7 +543,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"socialmediaId\": 2\r\n}",
+									"raw": "{\r\n    \"socialmediaId\": 4\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -582,7 +582,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"photoId\": 1,\r\n    \"message\": \"comment foto 1 pertama\"\r\n}",
+									"raw": "{\r\n    \"photoId\": 5,\r\n    \"message\": \"comment foto 1 pertama\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -613,7 +613,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"commentId\": 1\r\n}",
+									"raw": "{\r\n    \"commentId\": 2\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -644,7 +644,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"photoId\": 2\r\n}",
+									"raw": "{\r\n    \"photoId\": 5\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -679,7 +679,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"commentId\": 5,\r\n    \"photoId\": 2,\r\n    \"message\": \"comment foto 2 ketiga lagi\"\r\n}",
+									"raw": "{\r\n    \"commentId\": 4,\r\n    \"photoId\": 5,\r\n    \"message\": \"comment foto 2 ketiga lagi\"\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -713,7 +713,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"commentId\": 3\r\n}",
+									"raw": "{\r\n    \"commentId\": 4\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
